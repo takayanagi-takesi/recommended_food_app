@@ -9,9 +9,20 @@ AllCops:
 Rails/FilePath:
   Exclude:
     - 'config/environments/development.rb'
-    - 'app/helpers/application_helper.rb'
-    - 'app/models/application_record.rb'
+
 
 Rails/Output:
   Exclude:
     - 'db/seeds.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'app/helpers/application_helper.rb'
+    - 'app/models/application_record.rb'    
+    - 'config/application.rb'
+    - 'db/migrate/20210727035144_devise_create_users.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'config/initializers/devise.rb'
